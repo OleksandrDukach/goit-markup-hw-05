@@ -660,6 +660,7 @@ address {
   background-color: var(--primery-bgr-color);
   width: 528px;
   height: 581px;
+  transition: transform 2000ms;
 }
 
 .btn-close {
