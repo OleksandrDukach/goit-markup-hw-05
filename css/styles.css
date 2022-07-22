@@ -694,7 +694,6 @@ address {
   background-color: var(--primery-bgr-color);
   width: 528px;
   height: 581px;
-  opacity: 1;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
