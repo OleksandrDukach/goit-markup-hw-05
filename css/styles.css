@@ -564,8 +564,6 @@ address {
 .customers-list-logo:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 /* ==========Portfolio page */
@@ -579,8 +577,6 @@ address {
 .filter-button:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 .card-link {
@@ -642,8 +638,6 @@ address {
 .footer-panel-logo:hover,
 .footer-panel-logo:focus {
   background-color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 /* ==========HW-05========== */
@@ -723,8 +717,6 @@ address {
 .btn-close:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 /* ===========Наши проекты============= */
