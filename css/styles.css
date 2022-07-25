@@ -348,7 +348,7 @@ address {
   border-radius: 4px;
   border: none;
   box-shadow: var(--hover-btn-color);
-  transition-property: color, background-color;
+  transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -739,6 +739,7 @@ address {
 }
 
 /* ===========Наши проекты============= */
+
 .project-card-window {
   position: relative;
   overflow: hidden;
