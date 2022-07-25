@@ -126,6 +126,7 @@ address {
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 14px;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -140,8 +141,6 @@ address {
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 .page-header-contacts {
@@ -160,6 +159,7 @@ address {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -174,8 +174,6 @@ address {
 .page-header-contact:hover,
 .page-header-contact:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 /* First page */
@@ -216,6 +214,7 @@ address {
   border-radius: 4px;
   border: none;
   margin-top: 30px;
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -223,8 +222,6 @@ address {
 .page-hero-button:hover,
 .page-hero-button:focus {
   background-color: var(--hover-btn-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 .visually-hidden {
@@ -426,18 +423,18 @@ address {
   color: var(--head-text-color);
   margin-top: 20px;
   line-height: 1.71;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
 .footer-address:hover,
 .footer-address:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 .footer-contact {
   color: var(--address-color);
   line-height: 1.71;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -445,8 +442,6 @@ address {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 /* ==========HW4 add icons========= */
@@ -514,6 +509,7 @@ address {
   border-radius: 50%;
   cursor: pointer;
   color: var(--social-icons-color);
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -526,8 +522,6 @@ address {
 .icon-panel-logo:focus {
   background-color: var(--accent-color);
   color: var(--head-text-color);
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 .team-item {
@@ -552,6 +546,7 @@ address {
   border-radius: 4px;
   cursor: pointer;
   color: var(--social-icons-color);
+  transition-property: color, border-color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -569,6 +564,7 @@ address {
 /* ==========Portfolio page */
 
 .filter-button {
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -631,6 +627,7 @@ address {
   cursor: pointer;
   background-color: var(--social-bgc);
   fill: var(--head-text-color);
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
@@ -669,14 +666,16 @@ address {
   height: 100%;
   background-color: var(--modal-bgc);
   opacity: 1;
-  transition-duration: opacity 250ms;
+  transition-property: opacity;
+  transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  transition-duration: opacity 250ms;
+  transition-property: opacity;
+  transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
 
@@ -688,8 +687,6 @@ address {
   background-color: var(--primery-bgr-color);
   width: 528px;
   height: 581px;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-animation);
 }
 
 .btn-close {
@@ -703,6 +700,7 @@ address {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--primery-bgr-color);
+  transition-property: color, border-color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-animation);
 }
